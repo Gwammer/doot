@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Pokemon Go</h1>
+  <p>By Daniel Chiu.</p>
+</div>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="page1.html">Gyms</a>
+  <a href="page2.html">Catching</a>
+  <a href="page3.html">Eggs</a>
+  <a href="page4.html">Coins</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Pokemon Theme</p>
+     <img src="https://i.ytimg.com/vi/2sj2iQyBTQs/maxresdefault.jpg">
+   
+    
+    
+  </div>
+  <div class="column middle">
+    <h2>Pokemon Go</h2>
+    <p>During the summer weeks of 2016, It was not common to see people swarmng the streets, looking at their phones intently and grouping at strange areas.  These people were playing Pokemon Go, a mobile app game that was an instant hit in the app store.  Even after the initial wave of people that only played because it was cool, Pokemon GO still has a fanbase and continues to be a popular game to this day.</p>
+    <p>Pokemon Go continues to be a popular game to this day and is a very social game where everybody has to contribute something to their team, such as gym prestige or healing other pokemon in a gym.  Along with the massive success, Pokemon Go is a game for all ages, young and old to catch pokemon together.  </p>
+     
+
+    
+     <a href="https://www.pokemongo.com/en-us/">Pokemon Go Main page</a>
+  
+
+
+
+  </div>
+  <div class="column side">
+    <h2>What app looks like</h2>
+    <img src="http://is3.mzstatic.com/image/thumb/Purple118/v4/ff/32/02/ff320242-3360-31c0-918d-45acb52f0628/source/1200x630bb.jpg">
+
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
