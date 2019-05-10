@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Hatching Eggs</h1>
+  <p>Gotta hatch 'em LOL</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="page1.html">Gyms</a>
+  <a href="page2.html">Catching</a>
+  <a class="active" href="page3.html">Eggs</a>
+  <a href="page4.html">Coins</a>
+  
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>2km Egg Hatching</p>
+    <img src="http://images.eurogamer.net/2015/articles/1/8/4/4/1/6/1/146885214514.jpg/EG11/resize/300x-1/quality/80/format/jpg" alt="Girl in a jacket">
+  </div>
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>Hatching Eggs in Pokemon Go can give you rare pokemon that are either very hard to catch or are very rare in game.  You can carry up to nine eggs in your inventory and can hatch them with egg incubators.  You get one unbreakable egg incubator that can hatch one egg at a time.  However, the amount you need to walk differs for each egg, as there are 2km eggs, 5km eggs, and 10km eggs.  Each egg will yield a higher rarity rate, 2km eggs will yield baby pokemon, 5km pokemon will yield uncommons and rare pokemon and 10km eggs will yield uber-rares like Snorlax.  You can also buy egg incubators from the shop for 150 pokecoins each.  These are not unlimited, and will break after 3 uses.  </p>
+   
+    <a href="https://rankedboost.com/pokemon-go/egg-hatching-chart/">Click here for Pokemon Hatch rates in full detail</a>
+  </div>
+  <div class="column side">
+    <h2>Special Events!</h2>
+    <p>During Special Events, Rare Pokemon That usually can't be caught in the wild or are exclusive to that event can appear randomly in eggs!  This Ash Ketchum Pichu was only avaliable in 2km eggs during the one year anniversary of Pokemon Go.</p>
+    <img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/8814927/b9kyV9vPttNU_IS3MHxfLN_MFlLyb35SsrrJg2xXBcU.jpg">
+    
+
+
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
