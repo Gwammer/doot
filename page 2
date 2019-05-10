@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Catching Pokemon</h1>
+  <p>Gotta Catch 'em all!</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="page1.html">Gyms</a>
+  <a class="active" href="page2.html">Catching</a>
+  <a href="page3.html">Eggs</a>
+  <a href="page4.html">Coins</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Pokemon in Catch Screen</h2>
+    <p>CP 77 Bulbasaur on the catch screen, CP can only be viewed when you decide to catch the pokemon</p>
+    <img src="http://www.abc.net.au/news/image/7626882-3x2-940x627.jpg" alt="Flowers in Chania" width="100" height="200">
+  </div>
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>Catching Pokemon is the basis of Pokemon Go and is essential to learn.  Pokemon appear on the map when you walk around, and when you tap them, you will have a chance to catch them wit your pokeball.  By swipping from the bottom of the screen to the top of the screen, you are able to throw your pokeball at the pokemon.  When catching the pokemon, you will see a green circle, a light green circle, a yellow circle, an orange circle or a red circle.  The green circle has the highest probability of you catching that pokemon, and the red circle has the least probability of catching it.  When you see the red circle, you should throw an Ultra ball at the pokemon, as it has a higher chance of catching it.  But if there is a green circle, do not waste your Ultra Balls, and just use the regular pokeball.  </p>
+    <p>When Catching Pokemon, be sure to know why you are catching that pokemon.  You could be catching that pokemon to collect candies, or gain stardust, a form of elolutionary form of money.  If you decide to catch a lot of the same pokemon, you could go on a lucky egg spree which would let you level up a lot of points.  When Running out of pokeballs with no pokestop in sight, be sure to remember not to spend your pokeballs on low CP pokemon.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2sj2iQyBTQs" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="column side">
+    <h2>Berries</h2>
+    <p>Berries are used for various things when trying to catch pokemon.  For example, the pinap berry will double the amount of berries you earn, the Nanab Berry will make the pokemon not move around as much, the Razz berry will make it easier for you to catch that pokemon.</p>
+    <img src="https://leekduck.com/theleek/images/berries-2.jpg">
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
