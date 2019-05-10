@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+
+<div class="header">
+  <h1>Pokecoins</h1>
+  <p>Currency in Pokemon Go</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="page1.html">Gyms</a>
+  <a href="page2.html">Catching Pokemon</a>
+  <a class="active" href="page3.html">Eggs</a>
+  <a href="page4.html">Pokecoins</a>
+  
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Gyms?</h2>
+    <p>You may be wondering how to get Pokecoins.  Pokecoins are obtainable when you place your pokemon in your local gym.  Depending on how long your pokemon stays in that gym without being knocked out, you will recieve that many pokecoins.  You can earn up to 50 pokecoins each day max, so be sure to strategically put pokemon in certain gyms.</p>
+    <img src="http://www.pokemongomaniacs.com/wp-content/uploads/2016/08/take-over-pokemon-go-gym-1.jpg">
+    
+    
+  </div>
+  <div class="column middle">
+    <h2>Pokecoins</h2>
+    <p>When you put your pokemon in a gym, you may notice that when you get your pokemon back, you will recieve pokecoins.  Pokecoins are used for buying essential items to help you proceed to "be the very best".  For example, you can buy Lure modules, that attract the pokemon to you, or Egg incubators, that help you blastt your way through the impenetrable blockade of poke eggs overfilling your inventory.  Lucky eggs can be the very thing you need when you go on an evolving spree, evolving pokemon en masse to get to the next level.  Whatever you choose, be careful, you can also buy pokecoins with real money, but it's not really worth it in virtural land. </p>
+    
+
+
+
+<table style="width:100%">
+  <tr>
+    <th>Object</th>
+    <th>Cost</th> 
+    <th>What it does</th>
+  </tr>
+  <tr>
+    <td>Pokeballs</td>
+    <td>100</td>
+    <td>You can catch pokemon, boost your 
+    pokeballs by 20</td>
+  </tr>
+  <tr>
+    <td>Incense</td>
+     <td>80-1250</td>
+    <td>Attracts pokemon to you
+    for 30 minutes</td>
+    
+  </tr>
+  <tr>
+    <td>Luck Egg</td>
+    <td>80-1250</td>
+    <td>Lucky Eggs double the XP
+    you get for 30 minutes</td>
+  
+  </tr>
+  <tr>
+    <td>Lure Module</td>
+    <td>100-680</td>
+    <td>Lure Modules act like 
+    Incense, but only works on Pokestops</td>
+  
+   </tr>
+  <tr>
+    <td>Egg Incubator</td>
+    <td>150</td>
+    <td>Hatches your eggs,
+    Good for 3 uses</td>  
+    
+   </tr>
+  <tr>
+    <td>Max Potion</td>
+    <td>180-1250</td>
+    <td>Max Potions heal all the HP
+    from a wounded Pokemon</td>  
+    
+   </tr>
+  <tr>
+    <td>Max Revive</td>
+    <td>180-1250</td>
+    <td>Max Revive revives all your 
+    fainted pokemon to the max</td>  
+  </tr>
+</table>
+   
+    
+  </div>
+  <div class="column side">
+    <h2>Wombo Combo</h2>
+    <p>Buying items seperatly is great, but buying two items and using them in succession can bring you far into the game.  For example, use a Lucky Egg and a Lure module or a Incense to boost the XP you get from all of the pokemon you catch.  You can also buy five egg incubators and one lucky egg, and when you hatch all of the eggs in your inventory, be sure to apply the lucky egg to see your XP level soar!</p>
+    
+  
+    <img src="https://pbs.twimg.com/profile_images/759487091805913088/_8MGbXMH.jpg">
+    
+
+
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
