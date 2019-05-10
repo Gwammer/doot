@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Gyms</h1>
+  <p>Make your team proud!</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="page1.html">Gyms</a>
+  <a href="page2.html">Catching</a>
+  <a href="page3.html">Eggs</a>
+  <a href="page4.html">Coins</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Gym Fight</h2>
+    <p>A fight between an Electobuzz and a Blastoise</p>
+    <img src=" https://cdn.vox-cdn.com/uploads/chorus_asset/file/6730993/battle.0.PNG">
+  </div>
+  <div class="column middle">
+    <h2>Gyms</h2>
+    <p>You may notice that there are other sructures in the game, other than pokestops.  There is also tall structures, called gyms.  Gyms are where you battle other players for pocession of that gym, and if your pokemon stays in for a certain amount of hours, you gain pokeballs and pokecoins.</p>
+    <p>Remember, just like any other pokemon game, weakness is applied here, so be sure to know what you are putting in your team when you fight the opponent.  You may be outmched in pokemon, but that does not matter.  You will not battle the same pokemon twice in one match, as a gym only allows one type of pokemon in at once.  To strategically defend your gym, always bring tanks or glass cannons into the gym.  Tanks are Blissys and Snorlax, while the glass cannons are Aerodactyl, Machamp, and Sizzor.</p>
+    <a href="https://www.imore.com/best-counters-beat-pokemon-go">Click here to learn more about Weakness and Types</a>
+  <ul>
+  <li>Don't listen to the auto-select for gym battles, choose the pokemon that are strong against the gym</li>
+  <li>Always remember to heal your Pokemon after a battle, or you could be going into a battle with a 1 HP pokemon!</li>
+  <li>Take down tanky normal types with fighting types, like Machamp, Ryhorn, or Primape</li>
+
+  </div>
+  <div class="column side">
+    <h2>Gym</h2>
+    <p>A gym Controled by Team Valor</p>
+    <img src="http://cdn.gamer-network.net/2016/usgamer/Pokemon-Go-Gym-Battle-(3).jpg">
+
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
